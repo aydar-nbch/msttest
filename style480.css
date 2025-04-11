@@ -1,0 +1,92 @@
+@media (min-width: 361px) and (max-width: 480px) { 
+    .normal-width {
+        margin: 0;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding-top: 230px;
+    }
+
+    .header-right {
+        position: absolute;
+        width: 100%;
+        top: 60px;
+    }
+
+    .header-left {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .header-right img {
+        width: 100vw;
+        opacity: 0.2;
+        height: 640px;
+        object-fit: cover;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 188px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .navbar p {
+        font-size: 20px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .header-title {
+        margin-bottom: 30px;
+        letter-spacing: normal;
+        font-size: 40px;
+    }
+
+    .header-subtitle {
+        margin-bottom: 32px;
+        font-size: 24px;
+    }
+
+    .header-text ul {
+        margin-bottom: 32px;
+        font-size: 14px;
+     }
+
+     .hight-text {
+        font-size: 24px;
+     }
+
+    .header-text button{
+        padding: 15px 25px 15px 25px;
+        margin-bottom: 60px;
+    }
+
+    
+    .form-container {
+        margin-top: 100px;
+    }
+   
+   
+    
+  
+    
+    
+ }
